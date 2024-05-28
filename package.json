@@ -11,18 +11,18 @@
         "prepare": "husky install",
         "postinstall": "npm run prepare"
     },
-    "author": "Desarrollo Útil",
+    "author": "Patricia",
     "license": "MIT",
     "dependencies": {
         "@sinclair/typebox": "0.23.5",
         "ajv": "8.11.0",
         "ajv-errors": "3.0.0",
         "ajv-formats": "2.1.1",
-        "bcrypt": "5.0.1",
-        "dotenv": "16.0.1",
-        "express": "4.18.1",
-        "jose": "4.8.1",
-        "mongoose": "6.4.0"
+        "bcrypt": "^5.0.1",
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "jose": "^4.15.5",
+        "mongoose": "^6.4.0"
     },
     "devDependencies": {
         "eslint": "8.18.0",
@@ -33,7 +33,7 @@
         "eslint-plugin-promise": "6.0.0",
         "husky": "8.0.1",
         "lint-staged": "13.0.2",
-        "nodemon": "2.0.18",
+        "nodemon": "^3.1.0",
         "prettier": "2.7.1"
     },
     "imports": {
